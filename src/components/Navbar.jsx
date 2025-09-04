@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 import cart_icon from "../assets/cart_icon.png";
 // ❌ remove href import
 import { Link } from "react-router-dom"; // ✅ if you want routing
-import { ShopContext } from "../Context/ShopContext";
+import { ShopContext } from "../context/Shopcontext";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
